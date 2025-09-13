@@ -1,0 +1,16 @@
+[package]
+name = "Crypto-Savings-Account-Simultor"
+version = "1.0.0"
+authors = []
+
+[addresses]
+MyModule="0xa95f9a525678d1903a2fb1aaab67afa9d600a51ce88ba3a71f75086f1d1ca6f1"
+
+[dev-addresses]
+
+[dependencies.AptosFramework]
+git = "https://github.com/aptos-labs/aptos-framework.git"
+rev = "mainnet"
+subdir = "aptos-framework"
+
+[dev-dependencies]
